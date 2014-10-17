@@ -36,9 +36,8 @@ Bootstrap 3 alert and help-block library
 
 ```
 
+javascript
 ```javascript
-
-<script>
 
 var $notify = new $.notify('#notify-div');
 
@@ -52,8 +51,5 @@ $('#your_name').on('blur', function() {
     $notify.setError($this, 'Please enter your name.');
   }
 }
-
-</script>
-
 
 ```
