@@ -6,7 +6,7 @@ Bootstrap 3 alert and help-block library
 
 ## Usage
 
-```javascript
+```html
 <html>
 
 <body>
@@ -32,6 +32,12 @@ Bootstrap 3 alert and help-block library
 
 </body>
 
+</html>
+
+```
+
+```javascript
+
 <script>
 
 var $notify = new $.notify('#notify-div');
@@ -49,7 +55,5 @@ $('#your_name').on('blur', function() {
 
 </script>
 
-</html>
 
 ```
-
